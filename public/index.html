@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automatización Inmobiliaria</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Chatbot -->
+    <div class="chatbot-section">
+      <h2><i class="fas fa-robot"></i> Asistente Virtual</h2>
+      <div id="chatWindow"></div>
+      <input type="text" id="userInput" placeholder="Escribe tu mensaje...">
+      <button id="sendBtn">Enviar</button>
+    </div>
+
+    <!-- Generador de Descripciones -->
+    <div class="generator-section">
+      <h2><i class="fas fa-magic"></i> Generador de Descripciones</h2>
+      <textarea id="propertyFeatures" placeholder="Características de la propiedad..."></textarea>
+      <button id="generateDescBtn">Generar</button>
+      <div id="descriptionResult"></div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
